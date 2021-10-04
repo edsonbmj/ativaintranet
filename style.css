@@ -69,10 +69,28 @@ body{
   font-size: 6rem;
   line-height: 1;
   font-weight: 400;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   grid-column: 1 / 4; 
 }
 
+.titulo:after{
+  content:'';
+  display:block;
+  width: 60px;
+  height: 6px;
+  background-color: rgb(97, 50, 50);
+  text-align: center;
+}
+
+.sub-titulo{
+  font-family: 'Playfair Display SC', georgia;
+  font-size: 4rem;
+  text-align:center;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  grid-column: 1 / 4;
+}
 .servicos h2{
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1rem;
@@ -187,6 +205,7 @@ body{
   margin-top: 2rem;
   margin-bottom: .5rem;
   color: #e54;
+  font-size: 18px;
 }
 
 .faq-lista dt::before{
@@ -342,4 +361,19 @@ body{
   float: left;
   margin-left: 600px;
   margin-top: 150px;
+}
+
+.paragrafo-lista{
+  position: absolute;
+  text-align: center;
+  float: left;
+}
+
+.titulo{
+  grid-column: 2 / 4;;
+}
+
+.p-faq{
+  position: absolute;
+  font-size: 5em;
 }
