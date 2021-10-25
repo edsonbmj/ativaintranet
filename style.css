@@ -46,7 +46,7 @@ body{
   margin-right: 10px;
   color: #fff;
   text-decoration: none;
-  font-family: 'IBM Plex Mono';
+  font-family: 'Cambria';
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.875rem;
@@ -65,7 +65,7 @@ body{
 }
 
 .titulo{
-  font-family: 'Playfair Display SC', georgia;
+  font-family: Cambria;
   font-size: 6rem;
   line-height: 1;
   font-weight: 400;
@@ -83,7 +83,7 @@ body{
 }
 
 .sub-titulo{
-  font-family: 'Playfair Display SC', georgia;
+  font-family: Cambria;
   font-size: 4rem;
   text-align:center;
   line-height: 1;
@@ -92,7 +92,7 @@ body{
   grid-column: 1 / 4;
 }
 .servicos h2{
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: Cambria;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -110,7 +110,7 @@ body{
 }
 
 .servicos p{
-  font-family: 'IBM Plex Mono';
+  font-family: Cambria;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -168,7 +168,7 @@ body{
 .servicos-descricao ul li{
   color: #222;
   text-decoration: none;
-  font-family: 'IBM Plex Mono';
+  font-family: Cambria;
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: .1em;
@@ -194,13 +194,13 @@ body{
 }
 
 .faq-lista dd{
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: Cambria;
   font-weight: bold;
   color:rgba(34, 34, 34, 0.822);
 }
 
 .faq-lista dt{
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: Cambria;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: .5rem;
@@ -232,7 +232,7 @@ body{
 
 .dados li{
   margin-bottom: 1rem;
-  font-family: 'IBM Plex Mono';
+  font-family: Cambria;
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: .1em;
@@ -254,7 +254,7 @@ body{
 
 .copy p{
   padding: 20px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: Cambria;
   font-weight: bold;
   color: #fff;
 }
@@ -335,14 +335,14 @@ body{
     border:1px sólido #C0C0C0;
     padding:5px;
     background:#A9200E;
-    font-family: 'IBM Plex Mono';
+    font-family: Cambria;
     color: #fff;
     border-radius: 3px;
   }
 .servicos-descricao td {
     border:1px sólido #C0C0C0;
     padding:5px;
-    font-family: 'IBM Plex Mono';
+    font-family: Cambria;
 }
 
 @keyframes slidedown{
