@@ -91,7 +91,7 @@ body{
   margin-bottom: 1rem;
   grid-column: 1 / 4;
 }
-.servicos h2{
+.lista h2{
   font-family: Cambria;
   font-size: 1rem;
   text-transform: uppercase;
@@ -100,7 +100,7 @@ body{
   color: #e54;
 }
 
-.servicos h2::before{
+.lista h2::before{
   content: '';
   display: inline-block;
   width: 40px;
@@ -109,19 +109,19 @@ body{
   background-color: #A9200E;
 }
 
-.servicos p{
+.lista p{
   font-family: Cambria;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
-.servicos-lista{
+.lista-setores{
   height: 370px;
   overflow: scroll;
   grid-column: 2;
 }
 
-.servicos-lista li{
+.lista-setores li{
   cursor: pointer;
   width: 120px;
   height: 38px;
@@ -133,39 +133,39 @@ body{
   text-align: center;
   grid-column: 1;
 }
-.servicos-lista p{
+.lista-setores p{
   padding: 10px;
 }
 
-.servicos-lista li:hover{
+.lista-setores li:hover{
   background-color: #e54;
   transition-delay: .1s;
   border-radius: 5px;
   color: #222;
 }
-.servicos-lista::-webkit-scrollbar{
+.lista-setores::-webkit-scrollbar{
   width: 18px;
 }
 
-.servicos-lista::-webkit-scrollbar-thumb{
+.lista-setores::-webkit-scrollbar-thumb{
   background-color: #A9200E;
   border-left: 4px solid #faf6ed;
   border-right: 4px solid #faf6ed;
 }
 
-.servicos-lista::-webkit-scrollbar-track{
+.lista-setores::-webkit-scrollbar-track{
   background-color: #faf6ed;
 }
 
-.servicos-descricao{
+.lista-conteudo{
   grid-column: 3;
 }
 
-.servicos-descricao section{
+.lista-conteudo section{
   margin-bottom: 3rem;
 }
 
-.servicos-descricao ul li{
+.lista-conteudo ul li{
   color: #222;
   text-decoration: none;
   font-family: Cambria;
@@ -174,7 +174,7 @@ body{
   letter-spacing: .1em;
 }
 
-.servicos-descricao li::before{
+.lista-conteudo li::before{
   content: '';
   display:inline-block;
   width: 8px;
@@ -183,23 +183,23 @@ body{
   background-color: #222;
 }
 
-.faq-lista{
+.aniv-lista{
   grid-column: 2 / 4;
 }
 
-.faq-lista dt:hover{
+.aniv-lista dt:hover{
   color: rgba(34, 34, 34, 0.822);
   transition-delay: .18s;
   cursor: pointer;
 }
 
-.faq-lista dd{
+.aniv-lista dd{
   font-family: Cambria;
   font-weight: bold;
   color:rgba(34, 34, 34, 0.822);
 }
 
-.faq-lista dt{
+.aniv-lista dt{
   font-family: Cambria;
   font-weight: bold;
   margin-top: 2rem;
@@ -208,7 +208,7 @@ body{
   font-size: 18px;
 }
 
-.faq-lista dt::before{
+.aniv-lista dt::before{
   content:'';
   display: inline-block;
   width: 20px;
@@ -216,43 +216,19 @@ body{
   margin-right: 10px;
   background-color: #A9200E;
 }
-.faq-lista dd{
+.aniv-lista dd{
   font-family: Helvetica,Arial;
   margin-bottom: .5rem;
   margin-left: 30px;
 }
 
-.mapa{
-  grid-column: 2;
-}
-
-.dados{
-  grid-column: 3;
-}
-
-.dados li{
-  margin-bottom: 1rem;
-  font-family: Cambria;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  letter-spacing: .1em;
-}
-.dados li::before{
-  content: '';
-  display:inline-block;
-  width: 20px;
-  height: 10px;
-  margin-right: 10px;
-  background-color: #A9200E;
-}
-
-.copy{
+.endereco{
   grid-column: 3 / 5;
   margin-bottom: 2rem;
   background-color: #A9200E;
 }
 
-.copy p{
+.endereco p{
   padding: 20px;
   font-family: Cambria;
   font-weight: bold;
@@ -270,19 +246,16 @@ body{
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;
   }
-  .servicos-lista{
+  .lista-conteudo{
     grid-column: 1;
   }
-  .faq-lista, .dados, .mapa{
+  .lista-aniv{
     grid-column: 1 / 3;
   }
   .grid-section h1{
     font-size: 3rem;
   }
-  .menu{
-    margin-top: 0px;
-  }
-  .copy{
+  .endereco{
     margin-bottom: 0px;
   }
 }
@@ -325,13 +298,13 @@ body{
   display:block;
 }
 
-.servicos-descricao table{
+.lista-conteudo table{
     border:1px sólido #C0C0C0;
     border-collapse:colapso;
     padding:5px;
     
   }
-.servicos-descricao th {
+.lista-conteudo th {
     border:1px sólido #C0C0C0;
     padding:5px;
     background:#A9200E;
@@ -339,7 +312,7 @@ body{
     color: #fff;
     border-radius: 3px;
   }
-.servicos-descricao td {
+.lista-conteudo td {
     border:1px sólido #C0C0C0;
     padding:5px;
     font-family: Cambria;
@@ -363,17 +336,11 @@ body{
   margin-top: 150px;
 }
 
-.paragrafo-lista{
-  position: absolute;
-  text-align: center;
-  float: left;
-}
-
 .titulo{
   grid-column: 2 / 4;;
 }
 
-.p-faq{
+.p-aniv{
   position: absolute;
   font-size: 5em;
 }
